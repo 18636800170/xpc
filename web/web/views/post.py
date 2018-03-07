@@ -31,8 +31,9 @@ Paginator.count = count
 
 
 # 设置过期时间
-@cache_page(60 * 15)
+# @cache_page(60 * 15)
 def show_list(request):
+    composer=request.composer
     post_list = Post.objects.order_by("-like_counts")
     paginator = Paginator(post_list, 40)
     posts = paginator.page(1)

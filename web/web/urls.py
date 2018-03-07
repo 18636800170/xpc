@@ -26,7 +26,11 @@ urlpatterns = [
     url(r"^article/filmplay/ts-getCommentApi/$", post.get_comments),
     url(r"^u(?P<cid>\d+)$", composer.homepage),
     url(r"register/$",composer.register),
-    url(r"^api/v1/user/register",composer.do_register)
+    url(r"^api/v1/user/register",composer.do_register),
+    url(r"login/$",composer.login),
+    url(r"^api/v1/user/login$",composer.do_login),
+    url(r'^api/v1/mobile/send', composer.send_code),
+    url(r"^user/login/ts-out",composer.logout),
 ]
 
 if settings.DEBUG:

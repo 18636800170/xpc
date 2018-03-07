@@ -18,3 +18,7 @@ class Composer(models.Model,Model):
     class Meta:
         managed = False
         db_table = 'composers'
+
+    @classmethod
+    def get_by_phone(cls,phone):
+        return cls.objects.filter(phone=phone).first()

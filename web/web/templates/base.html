@@ -267,13 +267,66 @@
  				</a>
  			</li>
 		</ul>
-		<ul class="fr right-part no-login">
+    {% if  request.composer %}
+		<ul class="fr right-part">
+			<li class="search-btn icon-search"></li>
+			<li class="ring-btn hover-elem">
+				<span id="show-msg" class="new-msginfo dn"></span>
+				<a class="icon-message" href="/message/my/ts-notice"></a>
+				<div class="common-hover-wrap user-hover-wrap">
+					<div class="hover-box">
+						<ul class="list">
+							<li><a href="/message/my/ts-notice">提醒<span id="cnoticeNum"></span></a></li>
+
+							<li><a href="/message/my/ts-system">通知<span id="csystemNum"></span></a></li>
+
+							<li><a href="/message/my/ts-self">约片合作<span id="cselfNum"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li class="user-face hover-elem">
+				<a href="/u{{ request.composer.cid }}">
+					<div class="user-face-con">
+						<img src="{{ request.composer.avatar }}">
+                    </div>
+				</a>
+				<div class="common-hover-wrap user-hover-wrap">
+					<div class="hover-box">
+						<ul class="list">
+							<li><a href="/u10264191">个人主页</a></li>
+                            <li class="line"></li>
+							<li><a href="/user/course">我的课程</a></li>
+							<li><a href="/user/resource">我的素材</a></li>
+							<li><a href="/user/order">我的订单</a></li>
+							<li><a href="/user/coupon">我的优惠券</a></li>
+							<li><a href="https://resource.xinpianchang.com/cart">我的购物车</a></li>
+							<li class="line"></li>
+                            <li>
+                                <a href="/user/userverify/ts-intro">认证</a>
+                            </li>
+                            <li><a href="https://passport.xinpianchang.com/settings" target="_blank">账号设置</a></li>
+							<li><a href="/user/login/ts-out">退出登录</a></li>
+						</ul>
+
+					</div>
+				</div>
+			</li>
+			<li class="upload-btn"><a href="/upload/index/ts-upload_index?from=tab">上传作品</a></li>
+		</ul>
+          {% else %}
+                       <ul class="fr right-part no-login">
 			<li class="search-btn icon-search"></li>
 						<li class="reg-btn">
-                            <a href="/login/">登录</a></li>
+                            <a href="/login/">
+
+                                    登录
+
+                            </a></li>
 			<li class="login-btn">
                 <a href="/register/">注册</a></li>
-					</ul>
+        </ul>
+    {% endif %}
 	</div>
 </div>
 <style>
