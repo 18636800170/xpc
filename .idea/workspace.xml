@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13526ae4-f704-4835-8813-16edd369c46b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/pip-selfcheck.json" afterPath="$PROJECT_DIR$/env/pip-selfcheck.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/helprs/composer.py" afterPath="$PROJECT_DIR$/web/web/helprs/composer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/models/__init__.py" afterPath="$PROJECT_DIR$/web/web/models/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/models/comment.py" afterPath="$PROJECT_DIR$/web/web/models/comment.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/models/composer.py" afterPath="$PROJECT_DIR$/web/web/models/composer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/models/copyright.py" afterPath="$PROJECT_DIR$/web/web/models/copyright.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/models/post.py" afterPath="$PROJECT_DIR$/web/web/models/post.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/settings.py" afterPath="$PROJECT_DIR$/web/web/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/templates/post.html" afterPath="$PROJECT_DIR$/web/web/templates/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/views/post.py" afterPath="$PROJECT_DIR$/web/web/views/post.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/templates/base.html" afterPath="$PROJECT_DIR$/web/web/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/urls.py" afterPath="$PROJECT_DIR$/web/web/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web/views/composer.py" afterPath="$PROJECT_DIR$/web/web/views/composer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="post.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/web/views/post.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="162">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -35,14 +29,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/models/post.py">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/views/composer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/web/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="272" column="44" lean-forward="false" selection-start-line="272" selection-start-column="44" selection-end-line="272" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/models/composer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,6 +130,8 @@
       <find>comment</find>
       <find>comment-bottom</find>
       <find>composer</find>
+      <find>src=</find>
+      <find>header-comm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,21 +148,16 @@
         <option value="$PROJECT_DIR$/web/manage.py" />
         <option value="$USER_HOME$/PycharmProjects/tqll/tqll/templates/tqll.html" />
         <option value="$USER_HOME$/PycharmProjects/tqll/tqll/api/index.py" />
-        <option value="$PROJECT_DIR$/web/web/templates/base.html" />
         <option value="$PROJECT_DIR$/example/post.html" />
         <option value="$PROJECT_DIR$/movie/spiders/discovery.py" />
         <option value="$PROJECT_DIR$/web/web/templates/comments.html" />
         <option value="$PROJECT_DIR$/web/web/templates/oneuser.html" />
         <option value="$PROJECT_DIR$/web/import.py" />
-        <option value="$PROJECT_DIR$/web/web/views/composer.py" />
         <option value="$PROJECT_DIR$/example/homepage.html" />
         <option value="$PROJECT_DIR$/web/web/templates/homepage.html" />
-        <option value="$PROJECT_DIR$/web/web/urls.py" />
         <option value="$PROJECT_DIR$/web/web/helprs/__init__.py" />
         <option value="$PROJECT_DIR$/web/web/templates/post_list.html" />
-        <option value="$PROJECT_DIR$/web/web/models/composer.py" />
         <option value="$PROJECT_DIR$/web/web/models/copyright.py" />
-        <option value="$PROJECT_DIR$/web/web/settings.py" />
         <option value="$PROJECT_DIR$/web/web/templates/post.html" />
         <option value="$PROJECT_DIR$/web/web/views/post.py" />
         <option value="$PROJECT_DIR$/web/web/models/post.py" />
@@ -122,6 +165,12 @@
         <option value="$PROJECT_DIR$/env/lib/python3.5/site-packages/debug_toolbar/settings.py" />
         <option value="$PROJECT_DIR$/web/web/models/__init__.py" />
         <option value="$PROJECT_DIR$/web/web/models/comment.py" />
+        <option value="$PROJECT_DIR$/web/web/templates/register.html" />
+        <option value="$PROJECT_DIR$/web/web/settings.py" />
+        <option value="$PROJECT_DIR$/web/web/urls.py" />
+        <option value="$PROJECT_DIR$/web/web/models/composer.py" />
+        <option value="$PROJECT_DIR$/web/web/views/composer.py" />
+        <option value="$PROJECT_DIR$/web/web/templates/base.html" />
       </list>
     </option>
   </component>
@@ -131,11 +180,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="889" />
-    <option name="height" value="883" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1010" />
+    <option name="y" value="24" />
+    <option name="width" value="859" />
+    <option name="height" value="849" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -414,16 +463,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1851" height="893" extended-state="7" />
-    <editor active="true" />
+    <frame x="1010" y="24" width="859" height="849" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44541484" sideWeight="0.5135428" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19685039" sideWeight="0.4864572" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18584071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47910863" sideWeight="0.4864572" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18573186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -473,23 +521,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/web/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/views/post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/web/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -661,24 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1109">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#1801#1851#0#HTML" expanded="false" />
-            <element signature="e#3988#5384#0#HTML" expanded="false" />
-            <element signature="e#24510#25076#0#HTML" expanded="false" />
-            <element signature="e#25107#25310#0#HTML" expanded="false" />
-            <element signature="e#25329#25371#0#HTML" expanded="false" />
-            <element signature="e#25403#25478#0#HTML" expanded="false" />
-            <element signature="e#25501#25689#0#HTML" expanded="false" />
-            <element signature="e#40348#40729#0#HTML" expanded="false" />
-            <element signature="e#44739#44845#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
@@ -717,27 +730,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="722" column="0" lean-forward="false" selection-start-line="722" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/views/composer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,16 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/models/composer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/web/models/copyright.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -797,14 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -869,12 +847,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="48" column="117" lean-forward="false" selection-start-line="48" selection-start-column="117" selection-end-line="48" selection-end-column="117" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#5;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#13360#13366#0#HTML" expanded="false" />
+            <element signature="e#13366#13372#0#HTML" expanded="false" />
+            <element signature="e#13372#13378#0#HTML" expanded="false" />
+            <element signature="e#13378#13384#0#HTML" expanded="false" />
+            <element signature="e#13384#13390#0#HTML" expanded="false" />
+            <element signature="e#13390#13396#0#HTML" expanded="false" />
+            <element signature="e#13396#13402#0#HTML" expanded="false" />
+            <element signature="e#13402#13408#0#HTML" expanded="false" />
+            <element signature="e#13408#13414#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/web/views/post.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="162">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/models/composer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/views/composer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="272" column="44" lean-forward="false" selection-start-line="272" selection-start-column="44" selection-end-line="272" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

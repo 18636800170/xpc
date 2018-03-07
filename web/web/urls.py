@@ -25,6 +25,8 @@ urlpatterns = [
     url(r"^a(?P<pid>\d+)$", post.post_detail),
     url(r"^article/filmplay/ts-getCommentApi/$", post.get_comments),
     url(r"^u(?P<cid>\d+)$", composer.homepage),
+    url(r"register/$",composer.register),
+    url(r"^api/v1/user/register",composer.do_register)
 ]
 
 if settings.DEBUG:
