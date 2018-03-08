@@ -13,7 +13,7 @@ class Composer(models.Model,Model):
     fans_counts = models.IntegerField(default=0)
     follow_counts = models.IntegerField(default=0)
     phone = models.CharField(max_length=11, blank=True, null=True)
-    password = models.CharField(max_length=16, blank=True, null=True)
+    password = models.CharField(max_length=32, blank=True, null=True)
 
     class Meta:
         managed = False

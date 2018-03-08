@@ -31,8 +31,13 @@ urlpatterns = [
     url(r"^api/v1/user/login$",composer.do_login),
     url(r'^api/v1/mobile/send', composer.send_code),
     url(r"^user/login/ts-out",composer.logout),
+    url(r"^find_password",composer.find_password),
+    url(r"^api/v1/user/check/send",composer.check_send),
+    url(r"^api/v1/mobile/check/find",composer.mobile_check),
+    url(r"^api/v1/user/findPwd",composer.reset_pwd),
 ]
 
+# debug_toolbar的使用配置
 if settings.DEBUG:
     import debug_toolbar
     urlpatterns=[

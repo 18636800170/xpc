@@ -1,5 +1,7 @@
 import pickle
+from hashlib import md5
 
+from django.conf import settings
 from web.helprs import r
 from web.models.copyright import Copyright
 from web.models.post import Post
@@ -23,3 +25,7 @@ def get_posts_by_cid(cid, num=0):
 def get_role_in_post(pid, cid):
     cr = Copyright.objects.filter(pid=pid, cid=cid).first()
     return cr.roles
+
+def md5_pwd(phone,password):
+    s="%s%s%s"%(phone,password,settings.SECRET_KEY)
+    return md5(s.encode("utf-8")).hexdigest()
